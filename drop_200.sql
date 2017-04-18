@@ -1,0 +1,13 @@
+DROP TABLE holiday_details;
+DROP TABLE holiday_reservations;
+DROP TABLE customer_payments;
+DROP TABLE billings;
+DROP TABLE sales_reps;
+DROP TABLE locations;
+DROP TABLE hotel_details;
+DROP TABLE coustomers;
+DROP TABLE payment_methods;
+DROP TABLE team_info;
+DROP TABLE flight_info;
+DROP TABLE board_info;
+PURGE RECYCLEBIN;
