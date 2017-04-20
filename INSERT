@@ -73,3 +73,18 @@ VALUES (70004, 'Ticketing', '17');
 
 INSERT INTO team_info
 VALUES (70005, 'IT', '10');
+
+INSERT INTO holiday_reservations
+VALUES (90001, 1000, 00002, 4012);
+
+INSERT INTO holiday_reservations
+VALUES (90002, 1002, 00002, 4013);
+
+INSERT INTO holiday_reservations
+VALUES (90001, 1003, 00003, 4014);
+
+INSERT INTO holiday_reservations
+VALUES (90001, 1004, 00004, 4015);
+
+INSERT INTO holiday_reservations
+VALUES (90001, 1005, 00002, 4011);
