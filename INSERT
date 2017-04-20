@@ -123,13 +123,13 @@ INSERT INTO hotel_details
 VALUES (30012, 'HILTON', 8002 , 5 , 'Single' );
 
 INSERT INTO hotel_details
-VALUES (30012, 'Fairmount', 8002 , 5 , 'Single' );
+VALUES (30012, 'Fairmount', 8000 , 5 , 'Single' );
 
 INSERT INTO hotel_details
-VALUES (30012, 'marriot', 8002 , 5 , 'king' );
+VALUES (30012, 'marriot', 8004 , 5 , 'king' );
 
 INSERT INTO hotel_details
 VALUES (30012, 'Holliday Inn ', 8002 , 3 , 'Single' );
 
 INSERT INTO hotel_details
-VALUES (30012, 'HILTON', 8002 , 5 , 'Single' );
+VALUES (30012, 'HILTON', 8003 , 5 , 'Single' );
