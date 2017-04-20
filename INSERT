@@ -1,3 +1,19 @@
+INSERT INTO payment_methods 
+VALUES(3011, 'PayPal');
+
+INSERT INTO payment_methods 
+VALUES (3012, 'VISA');
+
+INSERT INTO payment_methods 
+VALUES (3013, 'MASTERCARD');
+
+INSERT INTO payment_methods 
+VALUES (3014, 'ALIPAY');
+
+INSERT INTO payment_methods 
+VALUES (3015, 'Amex');
+
+
 INSERT INTO customer_payments 
 VALUES (50001, 1000, 3011, 15078.00, 'LKR', '04-05-2017');
 
