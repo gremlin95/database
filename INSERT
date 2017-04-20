@@ -103,3 +103,18 @@ VALUES (90001, 1004, 00004, 4015);
 
 INSERT INTO holiday_reservations
 VALUES (90001, 1005, 00002, 4011);
+
+INSERT INTO locations
+VALUES (80000, 'River side', 'Brazil', 'Rio');
+
+INSERT INTO locations
+VALUES (80001, 'Hill side', 'South Africa', 'Cape Town');
+
+INSERT INTO locations
+VALUES (80002, 'Land side', 'France', 'Jura');
+
+INSERT INTO locations
+VALUES (80003, 'Land side', 'Japan', 'Kanazawa');
+
+INSERT INTO locations
+VALUES (80004, 'Lake side', 'Australia', 'Noosa heads');
