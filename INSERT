@@ -1,0 +1,14 @@
+INSERT INTO customer_payments 
+VALUES (50001, 1000, 3011, 15078.00, 'LKR', '04-05-2017');
+
+INSERT INTO customer_payments 
+VALUES (50002, 1003, 3012, 20000.00, 'USD', '04-06-2017');
+
+INSERT INTO customer_payments 
+VALUES (50003, 1004, 3013, 598.00, 'GBP', '03-05-2017');
+
+INSERT INTO customer_payments 
+VALUES (50004, 1000, 3011, 688.00, 'USD', '04-07-2017');
+
+INSERT INTO customer_payments 
+VALUES (50005, 1002, 3011, 34000.00, 'LKR', '23-05-2017');
