@@ -143,17 +143,17 @@ VALUES(00068, 'Full Board', 100.00);
 INSERT INTO board_info
 VALUES(00070, 'Bed And Breakfast', 70.00);
 
-INSERT INTO hotel details
+INSERT INTO holiday details
 VALUES (12345, '', '100000.00', '52465', 30012, 90000, 00067);
 
-INSERT INTO hotel details
+INSERT INTO holiday details
 VALUES (35625, '', '220000.00', '68598', 30013, 90001, 00068);
 
-INSERT INTO hotel details
+INSERT INTO holiday details
 VALUES (75996, '', '300000.00', '45896', 30014, 90002, 00067);
 
-INSERT INTO hotel details
+INSERT INTO holiday details
 VALUES (35245, '', '450000.00', '85896', 30015, 90003, 00070);
 
-INSERT INTO hotel details
+INSERT INTO holiday details
 VALUES (85456, '', '500000.00', '78954', 30016, 90004, 00070);
