@@ -133,3 +133,12 @@ VALUES (30012, 'Holliday Inn ', 8002 , 3 , 'Single' );
 
 INSERT INTO hotel_details
 VALUES (30012, 'HILTON', 8003 , 5 , 'Single' );
+
+INSERT INTO board_info
+VALUES(00067, 'Full Board', 120.00);
+
+INSERT INTO board_info
+VALUES(00068, 'Full Board', 100.00);
+
+INSERT INTO board_info
+VALUES(00070, 'Bed And Breakfast', 70.00);
