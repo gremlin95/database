@@ -1,3 +1,18 @@
+INSERT INTO customers
+VALUES (1000, 'James', 'Devidson', '478907657685' ,'0112456854', 'bagathale road' ,'colombo 03', 'Sri Lanka', 'Srilankan', 'james@gmail.com', 'M', '06-03-2017');
+
+INSERT INTO customers
+VALUES (1001, 'Peter', 'Pan', '512465589625', '0112568965', 'queens road', 'colombo 07', 'Sri Lanka', 'Sri Lankan', peter@hotmail.com', 'M', '07-03-2017');
+
+INSERT INTO customers
+VALUES (1002, 'Sul', 'Bul', '246859763245', '0384569756', 'cafe road', 'colombo 05', 'New Zealand', 'New Zealand', sulbul@outlook.com', 'M', '08-03-2017');
+
+INSERT INTO customers
+VALUES (1003, 'Mary', 'Jane', '587964123564', '0387896543', 'hill street', 'colombo 04', 'Australia', 'Australian', maryjane@gmail.com', 'F', '09-03-2017');
+
+INSERT INTO customers
+VALUES (1004, 'Victoria', 'Angel', '698745123654', '0384789631', 'parks street', 'colombo 08', 'Kenya', 'Kenyan', vicangel@rocketmail.com', 'F', '10-03-2017');
+
 INSERT INTO payment_methods 
 VALUES(3011, 'PayPal');
 
