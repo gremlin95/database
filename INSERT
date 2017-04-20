@@ -43,3 +43,18 @@ VALUES (50004, 1000, 3011, 688.00, 'USD', '04-07-2017');
 
 INSERT INTO customer_payments 
 VALUES (50005, 1002, 3011, 34000.00, 'LKR', '23-05-2017');
+
+INSERT INTO team_info
+VALUES (70001, 'Sales', '12');
+
+INSERT INTO team_info
+VALUES (70002, 'Marketing', '20');
+
+INSERT INTO team_info
+VALUES (70003, 'Finance', '15');
+
+INSERT INTO team_info
+VALUES (70004, 'Ticketing', '17');
+
+INSERT INTO team_info
+VALUES (70005, 'IT', '10');
