@@ -74,6 +74,21 @@ VALUES (70004, 'Ticketing', '17');
 INSERT INTO team_info
 VALUES (70005, 'IT', '10');
 
+INSERT INTO sales reps
+VALUES (00001, 'Charlie', 'Mason', 0715894625', 'charliemason@gmail.com', 70001);
+
+INSERT INTO sales reps
+VALUES (00002, 'Gregory', 'Wills', 0771546895', 'gregorywills@gmail.com', 70002);
+
+INSERT INTO sales reps
+VALUES (00003, 'Maya', 'Hills', 0781256498', 'mayahills@gmail.com', 70003);
+
+INSERT INTO sales reps
+VALUES (00004, 'Jessie', 'Kick', 0724569875', 'jeskick@gmail.com', 70004);
+
+INSERT INTO sales reps
+VALUES (00005, 'Blake', 'Griffin', 0758986748', 'blakegrif@gmail.com', 70005);
+
 INSERT INTO holiday_reservations
 VALUES (90001, 1000, 00002, 4012);
 
