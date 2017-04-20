@@ -118,3 +118,18 @@ VALUES (80003, 'Land side', 'Japan', 'Kanazawa');
 
 INSERT INTO locations
 VALUES (80004, 'Lake side', 'Australia', 'Noosa heads');
+
+INSERT INTO hotel_details
+VALUES (30012, 'HILTON', 8002 , 5 , 'Single' );
+
+INSERT INTO hotel_details
+VALUES (30012, 'Fairmount', 8002 , 5 , 'Single' );
+
+INSERT INTO hotel_details
+VALUES (30012, 'marriot', 8002 , 5 , 'king' );
+
+INSERT INTO hotel_details
+VALUES (30012, 'Holliday Inn ', 8002 , 3 , 'Single' );
+
+INSERT INTO hotel_details
+VALUES (30012, 'HILTON', 8002 , 5 , 'Single' );
