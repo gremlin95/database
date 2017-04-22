@@ -1,14 +1,14 @@
 CREATE TABLE customers(
 Customer_ID 		NUMBER(4), 
 Customer_firstName 	VARCHAR2(20), 
-Coustomer_LastName 	VARCHAR2(20),
-Passport_No 		VARCHAR2(12)NOT NULL,
-Tel_No 				NUMBER(15) NOT NULL,
+Coustomer_lastName 	VARCHAR2(20),
+Passport_No 		VARCHAR2(12) NOT NULL,
+Tel_No 				VARCHAR2(15) NOT NULL,
 Street				VARCHAR2(10),
 City				VARCHAR2(15),
 Country 			VARCHAR2(20)DEFAULT 'SRI LANKA',
 Nationality 		VARCHAR2(20),
-Email_Address 		VARCHAR2(30),
+Email_Address 		VARCHAR2(30) UNIQUE,
 Gender 				VARCHAR2(10),
 Added_Date 			DATE);
 
@@ -17,9 +17,9 @@ PaymentMethod_ID	NUMBER(4),
 Method_Type 		VARCHAR2(50));,
 
 
-CREATE TABLE coustomer_payments(
+CREATE TABLE customer_payments(
 Payment_ID 			NUMBER(5),
-Coustomer_ID 		NUMBER(4),
+Customer_ID 		NUMBER(4),
 PaymentMethod_ID  	NUMBER(4),
 Payment_Amount 		NUMBER(10,2),
 Payment_Currency 	VARCHAR2(10)DEFAULT 'USD',
@@ -53,7 +53,7 @@ Billing_ID 			NUMBER(5));
 CREATE TABLE locations(
 location_ID  		NUMBER(5),
 Destination_Area 	VARCHAR(20),
-Country 			VARCHAR(20)NOT NULl,
+Country 			VARCHAR(20)NOT NULL,
 City 				VARCHAR2(20));
 
 CREATE TABLE hotel_details(
